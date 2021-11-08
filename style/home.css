@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+}
+#menu-header {
+  list-style-type: none;
+  float: right;
+  background: #000;
+  height: 30px;
+  position: sticky;
+  width: 100%;
+  position: fixed;
+  z-index: 5px;
+}
+ul li {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 8px;
+  transition: 0.35s;
+  cursor: pointer;
+  position: relative;
+  left: 325px;
+  bottom: 35px;
+  color: #fff;
+}
+#menu-header ul li:hover {
+  color: #f50057;
+  transition: 0.5s;
+}
+video {
+  width: 100%;
+  position: absolute;
+}
+#pic {
+  position: relative;
+  width: 100px;
+}
+#text-video {
+  position: relative;
+  top: 175px;
+  left: 150px;
+}
+#text-video ul {
+  position: relative;
+  left: -300px;
+  bottom: -30px;
+}
+#text-video ul li {
+  position: relative;
+  right: 100px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+#text-video h2 {
+  position: relative;
+  right: 75px;
+  font-size: 40px;
+  color: #fff;
+}
+#text-video p {
+  position: relative;
+  right: 25px;
+  bottom: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+#buttons {
+  position: relative;
+  top: 200px;
+  left: 325px;
+}
+input {
+  background: #ff4081;
+  border: 1px solid #ff4081;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 8px;
+  transition: 1.5s;
+}
+#play {
+  background: none;
+}
+#play:hover {
+  background: #ff4081;
+  transition: 0.4s;
+}
+#my:hover {
+  background: #000;
+  border: 1px solid #000;
+  transition: 1s;
+}
+.fas {
+  /* font-size: 8px; */
+  color: #fff;
+}
+.Jane-Smith {
+  margin-top: 300px;
+  margin-left: 70px;
+  max-width: 1500px;
+}
+.Jane-Smith #Jane-Smith {
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+.Jane-Smith h3 {
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  margin-left: 20px;
+  font-weight: 900;
+}
+#Jane-Smith {
+  border: 1px solid 20% #000;
+  padding: 10px;
+}
+.hr {
+  display: inline-block;
+  background: #ff4081;
+  width: 150px;
+  height: 2px;
+  margin-left: 5px;
+}
+#under-hr {
+  font-size: 20px;
+  font-weight: 100;
+  padding-left: 5px;
+}
+.check {
+  font-size: 12px;
+}
+.check p {
+  margin-left: 5px;
+}
+.check .fas {
+  color: #ff4081;
+  padding-right: 10px;
+}
+.tike {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
