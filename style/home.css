@@ -193,7 +193,7 @@ input {
   display: inline-block;
   box-shadow: 2px 3px 1px #7e7e7e;
   width: 250px;
-  height: 200px;
+  height: 190px;
   /* font-size: 20px; */
 }
 .box > .fas {
@@ -223,6 +223,31 @@ p .fas {
 }
 .FSH {
   width: 100%;
-  height: 150px;
+  height: 300px;
   background-image: url(https://assets-cdn.audionetwork.com/templates/images/Image_8778_98.png);
+  margin-top: 25px;
+}
+.FSH h2 {
+  color: #fff;
+}
+.FSH p {
+  color: #fff;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.FSH button {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 10px;
+  background: #ff4081;
+  border: 1px solid #ff4081;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px 25px 10px #7e7e7e;
+}
+.FSH button:hover {
+  background: #000;
+  border: 1px solid #000;
+  transition: 0.8s;
 }
