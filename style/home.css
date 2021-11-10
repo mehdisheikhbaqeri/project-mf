@@ -15,7 +15,7 @@ body {
   position: sticky;
   width: 100%;
   position: fixed;
-  z-index: 5px;
+  padding-bottom: 15px;
 }
 .nav1 li {
   display: inline-block;
@@ -28,6 +28,7 @@ body {
   bottom: 35px;
   color: #fff;
 }
+
 #menu-header .nav1 li:hover {
   color: #f50057;
   transition: 0.5s;
@@ -47,8 +48,8 @@ video {
 }
 #text-video ul {
   position: relative;
-  left: -300px;
-  bottom: -30px;
+  left: 100px;
+  bottom: 30px;
 }
 #text-video ul li {
   position: relative;
@@ -71,7 +72,7 @@ video {
 }
 #buttons {
   position: relative;
-  top: 200px;
+  top: 180px;
   left: 325px;
 }
 input {
