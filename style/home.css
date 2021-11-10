@@ -314,5 +314,72 @@ li {
 .my-procses {
   background: #979494;
   width: 100%;
-  height: 300px;
+  height: 100px;
+  border-bottom: #c0c0c0;
+}
+.my-procses {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.my-procses h4 {
+  font-size: 22px;
+}
+#txt-center {
+  width: 50%;
+  font-size: 12px;
+  border-left: 1px solid #c0c0c0;
+  padding: 25px 0;
+}
+
+.my-procses button {
+  color: #ff4081;
+  font-size: 10px;
+  background: transparent;
+  border: 1px solid #ff4081;
+  border-radius: 15px;
+  padding: 15px;
+}
+.my-procses button:hover {
+  color: #262834;
+  border: 1px solid #262834;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+.box3 {
+  background: #979494;
+  width: 100%;
+  height: 200px;
+  margin-top: 0.5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box3 section {
+  width: 200px;
+  height: 140px;
+  background: #c3c3c3;
+  padding: 5px 10px;
+}
+.box3 section:hover {
+  transform: scale(1.02);
+}
+.box3 .fas {
+  font-size: 24px;
+  background: #ff4081;
+  border: 1px solid #ff4081;
+  border-radius: 50%;
+  padding: 10px;
+}
+.box3 .fas:hover {
+  font-size: 24px;
+  color: #ff4081;
+  background: #fff;
+  border: 1.1px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.6s;
+}
+.box3 p {
+  font-size: 10px;
 }
