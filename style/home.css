@@ -17,7 +17,7 @@ body {
   position: fixed;
   z-index: 5px;
 }
-ul li {
+.nav1 li {
   display: inline-block;
   padding-right: 20px;
   font-size: 8px;
@@ -28,7 +28,7 @@ ul li {
   bottom: 35px;
   color: #fff;
 }
-#menu-header ul li:hover {
+#menu-header .nav1 li:hover {
   color: #f50057;
   transition: 0.5s;
 }
@@ -250,4 +250,46 @@ p .fas {
   background: #000;
   border: 1px solid #000;
   transition: 0.8s;
+}
+.my-portfolio {
+  margin-top: 50px;
+}
+.nav2 {
+  list-style-type: none;
+  border: 1px solid #cecece;
+  border-radius: 40px;
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  padding: 20px;
+  justify-content: space-between;
+  color: #cecece;
+  border: 1px solid none;
+  background: none;
+  cursor: pointer;
+}
+.nav2 :hover {
+  background: #ff4081;
+  border-radius: 40px;
+  transition: 0.95s;
+  color: #fff;
+}
+.img9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img3 img {
+  width: 175px;
+  height: 175px;
+  /* padding: 3px; */
+}
+#imag-center {
+  width: 175px;
+  height: 175px;
+}
+#imag-center h5 {
+  color: #7e7e7e;
+  font-size: 18px;
 }
