@@ -17,7 +17,7 @@ body {
   position: fixed;
   z-index: 5px;
 }
-ul li {
+.nav1 li {
   display: inline-block;
   padding-right: 20px;
   font-size: 8px;
@@ -28,7 +28,7 @@ ul li {
   bottom: 35px;
   color: #fff;
 }
-#menu-header ul li:hover {
+#menu-header .nav1 li:hover {
   color: #f50057;
   transition: 0.5s;
 }
@@ -193,7 +193,7 @@ input {
   display: inline-block;
   box-shadow: 2px 3px 1px #7e7e7e;
   width: 250px;
-  height: 200px;
+  height: 190px;
   /* font-size: 20px; */
 }
 .box > .fas {
@@ -223,6 +223,90 @@ p .fas {
 }
 .FSH {
   width: 100%;
-  height: 150px;
+  height: 300px;
   background-image: url(https://assets-cdn.audionetwork.com/templates/images/Image_8778_98.png);
+  margin-top: 25px;
+}
+.FSH h2 {
+  color: #fff;
+}
+.FSH p {
+  color: #fff;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.FSH button {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 10px;
+  background: #ff4081;
+  border: 1px solid #ff4081;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px 25px 10px #7e7e7e;
+}
+/* inji */
+.FSH button:hover {
+  background: #000;
+  border: 1px solid #000;
+  transition: 0.8s;
+}
+.my-portfolio {
+  margin-top: 50px;
+}
+.nav2 {
+  list-style-type: none;
+  border: 1px solid #cecece;
+  border-radius: 40px;
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  padding: 20px;
+  justify-content: space-between;
+  color: #cecece;
+  border: 1px solid none;
+  background: none;
+  cursor: pointer;
+}
+.nav2 :hover {
+  background: #ff4081;
+  border-radius: 40px;
+  transition: 0.95s;
+  color: #fff;
+}
+.img9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img3 img {
+  width: 175px;
+  height: 175px;
+  /* padding: 3px; */
+}
+#imag-center {
+  width: 175px;
+  height: 175px;
+  box-shadow: 2px 2px 22px 3px #cecece;
+  margin-bottom: 5px;
+  margin-top: -28px;
+}
+#imag-center h5 {
+  color: #7e7e7e;
+  font-size: 18px;
+}
+#imag-center button {
+  color: #fff;
+  font-size: 10px;
+  background: #ff4081;
+  border: 1px solid #ff4081;
+  border-radius: 20px;
+  padding: 10px;
+}
+#imag-center button:hover {
+  background: #000;
+  border: 1px solid #000;
+  transition: 0.8s;
 }
