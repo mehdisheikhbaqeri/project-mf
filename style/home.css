@@ -246,6 +246,7 @@ p .fas {
   padding: 10px;
   box-shadow: 1px 1px 25px 10px #7e7e7e;
 }
+/* inji */
 .FSH button:hover {
   background: #000;
   border: 1px solid #000;
@@ -288,8 +289,24 @@ li {
 #imag-center {
   width: 175px;
   height: 175px;
+  box-shadow: 2px 2px 22px 3px #cecece;
+  margin-bottom: 5px;
+  margin-top: -28px;
 }
 #imag-center h5 {
   color: #7e7e7e;
   font-size: 18px;
+}
+#imag-center button {
+  color: #fff;
+  font-size: 10px;
+  background: #ff4081;
+  border: 1px solid #ff4081;
+  border-radius: 20px;
+  padding: 10px;
+}
+#imag-center button:hover {
+  background: #000;
+  border: 1px solid #000;
+  transition: 0.8s;
 }
